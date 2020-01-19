@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SingOutActivity"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:selectAllOnFocus="true"
+            android:lines="1"
+            android:id="@+id/text_name"
+            android:hint="Please enter your Name"
+
+            android:layout_gravity="fill_horizontal"
+            android:layout_width="match_parent">
+        </EditText>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_height="wrap_content"
+            android:id="@+id/nUsername"
+            android:selectAllOnFocus="true"
+            android:lines="1"
+            android:hint="Enter your User Name"
+            android:inputType="text"
+            android:layout_width="fill_parent"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="fill_horizontal">
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:selectAllOnFocus="true"
+            android:lines="1"
+            android:id="@+id/nPassword"
+            android:hint="Please enter a password"
+            android:inputType="textPassword"
+            android:layout_gravity="fill_horizontal"
+            android:layout_width="match_parent">
+        </EditText>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content">
+
+        <Button
+            android:id="@+id/nRegister"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Register"></Button>
+    </LinearLayout>
+
+</LinearLayout>
